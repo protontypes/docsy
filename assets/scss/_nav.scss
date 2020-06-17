@@ -5,28 +5,16 @@
 .td-navbar-cover {
     background: $primary;
 
-    @include media-breakpoint-up(md) {
-        background: transparent !important;
-
-        .nav-link {
-            text-shadow: 1px 1px 2px $dark;
-        }
-
-    }
-
-    &.navbar-bg-onscroll .nav-link {
-        text-shadow: none;
-    }
 }
 
 .navbar-bg-onscroll {
-    background: $primary !important;
+    background: #ffffff !important;
     opacity: inherit;
 }
 
 .td-navbar {
-    background: $primary;
-    min-height: 4rem;
+    background: #ffffff;
+    min-height: 3rem;
     margin: 0;
     z-index: 32;
 
